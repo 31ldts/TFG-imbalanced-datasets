@@ -1,0 +1,219 @@
+{
+    "doi": "10.1007/s11227-024-06265-9",
+    "tittle": "Improving accuracy of code smells detection using machine learning with data balancing techniques",
+    "date": "09/2024",
+    "keywords": [
+        "Code Smells",
+        "Software Metrics",
+        "Machine Learning (ML)",
+        "Deep Learning (DL)",
+        "Bi-LSTM",
+        "GRU",
+        "Class Imbalance",
+        "Data Balancing Techniques"
+    ],
+    "IF": 2.5,
+    "CI": 0.68,
+    "datasets": {
+        "35": {
+            "accuracy": {
+                "value": [
+                    0.99
+                ],
+                "technique": [
+                    "ROS"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.97
+                ],
+                "technique": [
+                    "ROS"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.95
+                ],
+                "technique": [
+                    "ROS"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.98
+                ],
+                "technique": [
+                    "ROS"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.98
+                ],
+                "technique": [
+                    "ROS"
+                ]
+            }
+        },
+        "62": {
+            "accuracy": {
+                "value": [
+                    0.99
+                ],
+                "technique": [
+                    "Tomek Links"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.98
+                ],
+                "technique": [
+                    "Tomek Links"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.97
+                ],
+                "technique": [
+                    "Tomek Links"
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Tomek Links"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.99
+                ],
+                "technique": [
+                    "Tomek Links"
+                ]
+            }
+        },
+        "80": {
+            "accuracy": {
+                "value": [
+                    0.96
+                ],
+                "technique": [
+                    "Tomek Links"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.97
+                ],
+                "technique": [
+                    "ROS"
+                ]
+            },
+            "precision": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Tomek Links"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.98
+                ],
+                "technique": [
+                    "ROS"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.98
+                ],
+                "technique": [
+                    "ROS"
+                ]
+            }
+        },
+        "101": {
+            "accuracy": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "ROS"
+                ]
+            },
+            "F1": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "ROS"
+                ]
+            },
+            "precision": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "ROS"
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "ROS"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "ROS"
+                ]
+            }
+        }
+    }
+}

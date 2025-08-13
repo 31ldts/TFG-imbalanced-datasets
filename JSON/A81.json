@@ -1,0 +1,3272 @@
+{
+    "doi": "10.1016/j.asoc.2025.112819",
+    "tittle": "A synergistic oversampling technique with differential evolution and safe level synthetic minority oversampling",
+    "date": "03/2025",
+    "keywords": [
+        "Imbalanced Learning",
+        "Safe-Level-SMOTE",
+        "Differential Evolution",
+        "Oversampling",
+        "Class Imbalance"
+    ],
+    "IF": 7.2,
+    "CI": 1.48,
+    "datasets": {
+        "46": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7346,
+                    0.7721,
+                    0.7606
+                ],
+                "technique": [
+                    "BSMOTE;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8427,
+                    0.8727,
+                    0.8598
+                ],
+                "technique": [
+                    "BSMOTE,Original;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            }
+        },
+        "143": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0,
+                    0.996,
+                    1.0
+                ],
+                "technique": [
+                    "S-TL,SMOTE-ENN,BSMOTE,Borderline2SMOTE,Original;DT",
+                    "SL-D-Max,DEBOHID,SMOTE,S-TL,SMOTE-ENN,BSMOTE,Borderline2SMOTE,S-RSB,Original;kNN",
+                    "SL-D-Max,DEBOHID,SMOTE,SMOTE-ENN,BSMOTE,Borderline2SMOTE,Original;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    0.996,
+                    1.0
+                ],
+                "technique": [
+                    "S-TL,SMOTE-ENN,BSMOTE,Borderline2SMOTE,Original;DT",
+                    "SL-D-Max,DEBOHID,SMOTE,S-TL,SMOTE-ENN,BSMOTE,Borderline2SMOTE,S-RSB,Original;kNN",
+                    "SL-D-Max,DEBOHID,SMOTE,SMOTE-ENN,BSMOTE,Borderline2SMOTE,Original;SVM"
+                ]
+            }
+        },
+        "184": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.6602,
+                    0.731,
+                    0.7691
+                ],
+                "technique": [
+                    "Original;DT",
+                    "DEBOHID;kNN",
+                    "SSMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.71,
+                    0.7408,
+                    0.7733
+                ],
+                "technique": [
+                    "Original;DT",
+                    "DEBOHID;kNN",
+                    "SSMOTE;SVM"
+                ]
+            }
+        },
+        "144": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "SL-D-Max,DEBOHID,SMOTE-ENN,Borderline2SMOTE,S-RSB;DT",
+                    "DEBOHID,S-TL,SMOTE-ENN,BSMOTE,Borderline2SMOTE,S-RSB;kNN",
+                    "DEBOHID,S-TL,SMOTE-ENN,BSMOTE,Borderline2SMOTE,S-RSB,Original;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "SL-D-Max,DEBOHID,SMOTE-ENN,Borderline2SMOTE,S-RSB;DT",
+                    "DEBOHID,S-TL,SMOTE-ENN,BSMOTE,Borderline2SMOTE,S-RSB;kNN",
+                    "DEBOHID,S-TL,SMOTE-ENN,BSMOTE,Borderline2SMOTE,S-RSB,Original;SVM"
+                ]
+            }
+        },
+        "71": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7142,
+                    0.6719,
+                    0.5793
+                ],
+                "technique": [
+                    "S-RSB;DT",
+                    "S-RSB;kNN",
+                    "Borderline2SMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.7345,
+                    0.694,
+                    0.6293
+                ],
+                "technique": [
+                    "S-RSB;DT",
+                    "S-RSB;kNN",
+                    "S-RSB;SVM"
+                ]
+            }
+        },
+        "72": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9316,
+                    0.9768,
+                    0.9797
+                ],
+                "technique": [
+                    "Borderline2SMOTE;DT",
+                    "BSMOTE;kNN",
+                    "BSMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9386,
+                    0.9771,
+                    0.98
+                ],
+                "technique": [
+                    "Borderline2SMOTE;DT",
+                    "BSMOTE;kNN",
+                    "BSMOTE;SVM"
+                ]
+            }
+        },
+        "123": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9977,
+                    0.9585,
+                    0.7021
+                ],
+                "technique": [
+                    "DEBOHID,BSMOTE;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9978,
+                    0.9594,
+                    0.717
+                ],
+                "technique": [
+                    "DEBOHID,BSMOTE;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            }
+        },
+        "182": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.803,
+                    0.8302,
+                    0.7953
+                ],
+                "technique": [
+                    "SMOTE;DT",
+                    "DEBOHID;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8094,
+                    0.8313,
+                    0.8011
+                ],
+                "technique": [
+                    "SMOTE;DT",
+                    "DEBOHID;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            }
+        },
+        "185": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.5815,
+                    0.6762,
+                    0.7214
+                ],
+                "technique": [
+                    "DEBOHID;DT",
+                    "SMOTE-ENN;kNN",
+                    "S-TL;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.6389,
+                    0.6972,
+                    0.7263
+                ],
+                "technique": [
+                    "DEBOHID;DT",
+                    "SMOTE-ENN;kNN",
+                    "S-TL;SVM"
+                ]
+            }
+        },
+        "186": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.5304,
+                    0.6909,
+                    0.6462
+                ],
+                "technique": [
+                    "DEBOHID;DT",
+                    "DEBOHID;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.6087,
+                    0.6983,
+                    0.6544
+                ],
+                "technique": [
+                    "DEBOHID;DT",
+                    "DEBOHID;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            }
+        },
+        "187": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9083,
+                    0.9053,
+                    0.8954
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "S-TL;kNN",
+                    "SMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9098,
+                    0.9055,
+                    0.8964
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "S-TL;kNN",
+                    "SMOTE;SVM"
+                ]
+            }
+        },
+        "61": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9088,
+                    0.9374,
+                    0.9856
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9139,
+                    0.9405,
+                    0.9857
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            }
+        },
+        "190": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7637,
+                    0.8195,
+                    0.843
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "S-TL;kNN",
+                    "SMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.7758,
+                    0.8252,
+                    0.8434
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "DEBOHID;kNN",
+                    "SMOTE;SVM"
+                ]
+            }
+        },
+        "163": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9726,
+                    0.9994,
+                    0.9701
+                ],
+                "technique": [
+                    "S-TL;DT",
+                    "SL-D-Max,DEBOHID,S-TL,SMOTE-ENN,BSMOTE,Borderline2SMOTE;kNN",
+                    "SMOTE-ENN;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9727,
+                    0.9994,
+                    0.9705
+                ],
+                "technique": [
+                    "S-TL;DT",
+                    "SL-D-Max,DEBOHID,S-TL,SMOTE-ENN,BSMOTE,Borderline2SMOTE;kNN",
+                    "SMOTE-ENN;SVM"
+                ]
+            }
+        },
+        "188": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7727,
+                    0.8297,
+                    0.7291
+                ],
+                "technique": [
+                    "SMOTE-ENN;DT",
+                    "ADASYN;kNN",
+                    "ADASYN;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8066,
+                    0.8372,
+                    0.7739
+                ],
+                "technique": [
+                    "SMOTE-ENN;DT",
+                    "ADASYN;kNN",
+                    "SSMOTE,Original;SVM"
+                ]
+            }
+        },
+        "77": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9372,
+                    0.9158,
+                    0.9142
+                ],
+                "technique": [
+                    "SMOTE-ENN;DT",
+                    "SL-D-Max;kNN",
+                    "BSMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9392,
+                    0.925,
+                    0.9226
+                ],
+                "technique": [
+                    "SMOTE-ENN;DT",
+                    "SL-D-Max;kNN",
+                    "BSMOTE;SVM"
+                ]
+            }
+        },
+        "78": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9365,
+                    0.965,
+                    0.9724
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "SL-D-Max;kNN",
+                    "BSMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9451,
+                    0.9659,
+                    0.9732
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "SL-D-Max,S-RSB;kNN",
+                    "BSMOTE;SVM"
+                ]
+            }
+        },
+        "76": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7936,
+                    0.7926,
+                    0.5995
+                ],
+                "technique": [
+                    "S-RSB;DT",
+                    "ADASYN;kNN",
+                    "ADASYN;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8075,
+                    0.8029,
+                    0.6803
+                ],
+                "technique": [
+                    "S-RSB;DT",
+                    "ADASYN;kNN",
+                    "ADASYN;SVM"
+                ]
+            }
+        },
+        "191": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9271,
+                    0.9754,
+                    0.9661
+                ],
+                "technique": [
+                    "SSMOTE;DT",
+                    "SSMOTE;kNN",
+                    "BSMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9281,
+                    0.9757,
+                    0.9667
+                ],
+                "technique": [
+                    "SSMOTE;DT",
+                    "SSMOTE;kNN",
+                    "BSMOTE;SVM"
+                ]
+            }
+        },
+        "192": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8505,
+                    0.87,
+                    0.8852
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "SSMOTE;kNN",
+                    "S-RSB;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8557,
+                    0.8749,
+                    0.887
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "SSMOTE;kNN",
+                    "S-RSB;SVM"
+                ]
+            }
+        },
+        "4": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.4786,
+                    0.5037,
+                    0.7868
+                ],
+                "technique": [
+                    "DEBOHID;DT",
+                    "S-TL;kNN",
+                    "DEBOHID;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.5938,
+                    0.6129,
+                    0.7894
+                ],
+                "technique": [
+                    "DEBOHID;DT",
+                    "BSMOTE;kNN",
+                    "DEBOHID;SVM"
+                ]
+            }
+        },
+        "7": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7941,
+                    0.8151,
+                    0.8886
+                ],
+                "technique": [
+                    "SMOTE;DT",
+                    "S-RSB;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8039,
+                    0.8212,
+                    0.8907
+                ],
+                "technique": [
+                    "SMOTE;DT",
+                    "S-RSB;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            }
+        },
+        "29": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8706,
+                    0.6197,
+                    0.9285
+                ],
+                "technique": [
+                    "BSMOTE;DT",
+                    "SL-D-Max;kNN",
+                    "ADASYN;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8906,
+                    0.7067,
+                    0.9314
+                ],
+                "technique": [
+                    "BSMOTE;DT",
+                    "SL-D-Max;kNN",
+                    "ADASYN;SVM"
+                ]
+            }
+        },
+        "44": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8934,
+                    0.8964,
+                    0.8826
+                ],
+                "technique": [
+                    "S-TL;DT",
+                    "DEBOHID;kNN",
+                    "DEBOHID;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8959,
+                    0.9036,
+                    0.8918
+                ],
+                "technique": [
+                    "S-TL;DT",
+                    "DEBOHID;kNN",
+                    "DEBOHID;SVM"
+                ]
+            }
+        },
+        "45": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9231,
+                    0.9293,
+                    0.8987
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.925,
+                    0.9318,
+                    0.9023
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            }
+        },
+        "47": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8945,
+                    0.9343,
+                    0.8926
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9038,
+                    0.9423,
+                    0.9019
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            }
+        },
+        "48": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8616,
+                    0.9078,
+                    0.8897
+                ],
+                "technique": [
+                    "SMOTE-ENN;DT",
+                    "DEBOHID;kNN",
+                    "S-RSB;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8674,
+                    0.9122,
+                    0.8929
+                ],
+                "technique": [
+                    "SMOTE-ENN;DT",
+                    "DEBOHID;kNN",
+                    "S-RSB;SVM"
+                ]
+            }
+        },
+        "49": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.896,
+                    0.9114,
+                    0.9047
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8988,
+                    0.9139,
+                    0.9074
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            }
+        },
+        "50": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8815,
+                    0.9042,
+                    0.9179
+                ],
+                "technique": [
+                    "S-TL;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8892,
+                    0.914,
+                    0.9252
+                ],
+                "technique": [
+                    "S-TL;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            }
+        },
+        "51": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8473,
+                    0.8752,
+                    0.8863
+                ],
+                "technique": [
+                    "SMOTE;DT",
+                    "S-RSB;kNN",
+                    "S-RSB;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8577,
+                    0.8778,
+                    0.8883
+                ],
+                "technique": [
+                    "SMOTE;DT",
+                    "S-RSB;kNN",
+                    "S-RSB;SVM"
+                ]
+            }
+        },
+        "52": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8889,
+                    0.9078,
+                    0.931
+                ],
+                "technique": [
+                    "S-RSB;DT",
+                    "SL-D-Max;kNN",
+                    "BSMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8972,
+                    0.9167,
+                    0.9333
+                ],
+                "technique": [
+                    "S-RSB;DT",
+                    "SL-D-Max;kNN",
+                    "BSMOTE;SVM"
+                ]
+            }
+        },
+        "53": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9248,
+                    0.9173,
+                    0.9046
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "BSMOTE;kNN",
+                    "DEBOHID;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9284,
+                    0.9223,
+                    0.9088
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "BSMOTE;kNN",
+                    "DEBOHID;SVM"
+                ]
+            }
+        },
+        "54": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9056,
+                    0.8929,
+                    0.904
+                ],
+                "technique": [
+                    "S-RSB;DT",
+                    "DEBOHID;kNN",
+                    "DEBOHID;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9077,
+                    0.9055,
+                    0.9099
+                ],
+                "technique": [
+                    "S-RSB;DT",
+                    "DEBOHID;kNN",
+                    "DEBOHID;SVM"
+                ]
+            }
+        },
+        "55": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8814,
+                    0.9354,
+                    0.897
+                ],
+                "technique": [
+                    "ADASYN;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8924,
+                    0.9392,
+                    0.9061
+                ],
+                "technique": [
+                    "ADASYN;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            }
+        },
+        "56": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8317,
+                    0.8847,
+                    0.8397
+                ],
+                "technique": [
+                    "SL-D-Max;DT",
+                    "SMOTE;kNN",
+                    "DEBOHID;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8625,
+                    0.8975,
+                    0.87
+                ],
+                "technique": [
+                    "SL-D-Max,DEBOHID;DT",
+                    "SMOTE;kNN",
+                    "DEBOHID;SVM"
+                ]
+            }
+        },
+        "57": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8853,
+                    0.8963,
+                    0.8768
+                ],
+                "technique": [
+                    "SMOTE-ENN;DT",
+                    "BSMOTE;kNN",
+                    "BSMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.89,
+                    0.9,
+                    0.8825
+                ],
+                "technique": [
+                    "SMOTE-ENN;DT",
+                    "BSMOTE;kNN",
+                    "BSMOTE;SVM"
+                ]
+            }
+        },
+        "69": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7922,
+                    0.7743,
+                    0.6557
+                ],
+                "technique": [
+                    "DEBOHID;DT",
+                    "SMOTE;kNN",
+                    "Borderline2SMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8137,
+                    0.7807,
+                    0.6785
+                ],
+                "technique": [
+                    "DEBOHID;DT",
+                    "SMOTE;kNN",
+                    "Borderline2SMOTE;SVM"
+                ]
+            }
+        },
+        "70": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.696,
+                    0.7487,
+                    0.51
+                ],
+                "technique": [
+                    "S-RSB;DT",
+                    "SMOTE-ENN;kNN",
+                    "Borderline2SMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.7304,
+                    0.7608,
+                    0.532
+                ],
+                "technique": [
+                    "S-RSB;DT",
+                    "SMOTE-ENN;kNN",
+                    "SMOTE-ENN;SVM"
+                ]
+            }
+        },
+        "73": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.994,
+                    0.9817,
+                    0.9811
+                ],
+                "technique": [
+                    "SL-D-Max,DEBOHID,BSMOTE,Original;DT",
+                    "SL-D-Max,DEBOHID;kNN",
+                    "DEBOHID,BSMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9941,
+                    0.982,
+                    0.9816
+                ],
+                "technique": [
+                    "SL-D-Max,DEBOHID,BSMOTE,Original;DT",
+                    "SL-D-Max,DEBOHID;kNN",
+                    "DEBOHID,BSMOTE;SVM"
+                ]
+            }
+        },
+        "74": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9949,
+                    0.9848,
+                    0.9674
+                ],
+                "technique": [
+                    "SL-D-Max,DEBOHID;DT",
+                    "SL-D-Max,S-TL,SMOTE-ENN;kNN",
+                    "BSMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.995,
+                    0.985,
+                    0.9689
+                ],
+                "technique": [
+                    "SL-D-Max,DEBOHID;DT",
+                    "SL-D-Max,S-TL,SMOTE-ENN;kNN",
+                    "BSMOTE;SVM"
+                ]
+            }
+        },
+        "98": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9057,
+                    0.8515,
+                    0.9002
+                ],
+                "technique": [
+                    "DEBOHID;DT",
+                    "SMOTE-ENN;kNN",
+                    "Original;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9088,
+                    0.8576,
+                    0.9056
+                ],
+                "technique": [
+                    "DEBOHID;DT",
+                    "SMOTE-ENN;kNN",
+                    "Original;SVM"
+                ]
+            }
+        },
+        "181": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7136,
+                    0.7638,
+                    0.7448
+                ],
+                "technique": [
+                    "SSMOTE;DT",
+                    "SMOTE;kNN",
+                    "SSMOTE;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.7268,
+                    0.7671,
+                    0.7506
+                ],
+                "technique": [
+                    "SSMOTE;DT",
+                    "SMOTE;kNN",
+                    "SSMOTE;SVM"
+                ]
+            }
+        },
+        "179": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7614,
+                    0.8063,
+                    0.7947
+                ],
+                "technique": [
+                    "SMOTE-ENN;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.7718,
+                    0.8124,
+                    0.8015
+                ],
+                "technique": [
+                    "SMOTE-ENN;DT",
+                    "SL-D-Max;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            }
+        },
+        "180": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9158,
+                    0.913,
+                    0.9127
+                ],
+                "technique": [
+                    "SMOTE-ENN;DT",
+                    "SMOTE;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9168,
+                    0.9133,
+                    0.9141
+                ],
+                "technique": [
+                    "SMOTE-ENN;DT",
+                    "SMOTE;kNN",
+                    "SL-D-Max;SVM"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,415 @@
+{
+    "doi": "10.1016/j.ins.2024.121430",
+    "tittle": "Geometric relative margin machine for heterogeneous distribution and imbalanced classification",
+    "date": "01/2025",
+    "keywords": [
+        "Imbalanced learning",
+        "Heterogeneous distribution",
+        "Relative margin machine",
+        "Support vector machine"
+    ],
+    "IF": 0.0,
+    "CI": 2.08,
+    "datasets": {
+        "164": {
+            "accuracy": {
+                "value": [
+                    0.9824
+                ],
+                "technique": [
+                    "GRMM;SVM,nonlinear-rbf-classifiers"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9757
+                ],
+                "technique": [
+                    "RUS-SVM;SVM,Linear Classifiers"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "85": {
+            "accuracy": {
+                "value": [
+                    0.9564
+                ],
+                "technique": [
+                    "ReliefFSVM;SVM,nonlinear-rbf-classifiers"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9392
+                ],
+                "technique": [
+                    "ReliefFSVM;SVM,nonlinear-rbf-classifiers"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "171": {
+            "accuracy": {
+                "value": [
+                    0.982
+                ],
+                "technique": [
+                    "RUS-SVM,GRMM;SVM,Linear Classifiers"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9757
+                ],
+                "technique": [
+                    "GRMM;SVM,nonlinear-rbf-classifiers"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "81": {
+            "accuracy": {
+                "value": [
+                    0.7343
+                ],
+                "technique": [
+                    "GRMM;SVM,Linear Classifiers"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.8571
+                ],
+                "technique": [
+                    "GRMM;SVM,nonlinear-rbf-classifiers"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "124": {
+            "accuracy": {
+                "value": [
+                    0.9641
+                ],
+                "technique": [
+                    "GRMM;SVM,nonlinear-rbf-classifiers"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9695
+                ],
+                "technique": [
+                    "GRMM;SVM,nonlinear-rbf-classifiers"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "149": {
+            "accuracy": {
+                "value": [
+                    0.8316
+                ],
+                "technique": [
+                    "SVM-SMOTE;SVM,Linear Classifiers"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.8892
+                ],
+                "technique": [
+                    "GRMM;SVM,nonlinear-rbf-classifiers"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "122": {
+            "accuracy": {
+                "value": [
+                    0.9684
+                ],
+                "technique": [
+                    "ReliefFSVM;SVM,nonlinear-rbf-classifiers"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9657
+                ],
+                "technique": [
+                    "SVM-SMOTE;SVM,nonlinear-rbf-classifiers"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "9": {
+            "accuracy": {
+                "value": [
+                    0.8674
+                ],
+                "technique": [
+                    "GRMM;SVM"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.863
+                ],
+                "technique": [
+                    "GRMM;SVM"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        }
+    }
+}

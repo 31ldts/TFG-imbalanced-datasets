@@ -1,0 +1,316 @@
+{
+    "doi": "10.1007/s11227-025-06919-2",
+    "tittle": "Unlocking the power of optimized data balancing ratios: a new frontier in tackling imbalanced datasets",
+    "date": "01/2025",
+    "keywords": [
+        "Data Balancing",
+        "Class Imbalance",
+        "Particle Swarm Optimization",
+        "Support Vector Machine",
+        "Imbalanced Datasets"
+    ],
+    "IF": 2.5,
+    "CI": 0.68,
+    "datasets": {
+        "38": {
+            "accuracy": {
+                "value": [
+                    0.9419
+                ],
+                "technique": [
+                    "BSMOTE"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9
+                ],
+                "technique": [
+                    "BSMOTE"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.9277
+                ],
+                "technique": [
+                    "BSMOTE"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.875
+                ],
+                "technique": [
+                    "BSMOTE"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "96": {
+            "accuracy": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Cubic interpolation"
+                ]
+            },
+            "F1": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Cubic interpolation"
+                ]
+            },
+            "precision": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Cubic interpolation"
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Cubic interpolation"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "151": {
+            "accuracy": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Quadratic interpolation"
+                ]
+            },
+            "F1": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Quadratic interpolation"
+                ]
+            },
+            "precision": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Quadratic interpolation"
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Quadratic interpolation"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "164": {
+            "accuracy": {
+                "value": [
+                    0.9886
+                ],
+                "technique": [
+                    "Quadratic interpolation"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9863
+                ],
+                "technique": [
+                    "Quadratic interpolation"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.9729
+                ],
+                "technique": [
+                    "Quadratic interpolation"
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Quadratic interpolation"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "172": {
+            "accuracy": {
+                "value": [
+                    0.9672
+                ],
+                "technique": [
+                    "Cubic interpolation"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9687
+                ],
+                "technique": [
+                    "Cubic interpolation"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.9339
+                ],
+                "technique": [
+                    "Cubic interpolation"
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Cubic interpolation"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "193": {
+            "accuracy": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Quadratic interpolation"
+                ]
+            },
+            "F1": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Quadratic interpolation"
+                ]
+            },
+            "precision": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Quadratic interpolation"
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "Quadratic interpolation"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        }
+    }
+}

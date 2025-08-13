@@ -1,0 +1,1650 @@
+{
+    "doi": "10.1016/j.ins.2024.120699",
+    "tittle": "A MeanShift-guided oversampling with self-adaptive sizes for imbalanced 35ification",
+    "date": "06/2024",
+    "keywords": [
+        "Imbalanced Datasets",
+        "Classification",
+        "Over‑sampling",
+        "Overlapping",
+        "Within‑class Imbalance"
+    ],
+    "IF": 0.0,
+    "CI": 2.08,
+    "datasets": {
+        "166": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.687,
+                    0.698,
+                    0.799,
+                    0.769
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "ClusterSMOTE;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.795,
+                    0.777,
+                    0.876,
+                    0.836
+                ],
+                "technique": [
+                    "BSMOTE;BPNN",
+                    "MWMOTE;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.836,
+                    0.825,
+                    0.922,
+                    0.846
+                ],
+                "technique": [
+                    "KMSMOTE;BPNN",
+                    "MSOSS;LDA",
+                    "SMOTE;SVM",
+                    "KMSMOTE;DNN"
+                ]
+            }
+        },
+        "86": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.958,
+                    0.982,
+                    0.959,
+                    0.958
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.97,
+                    0.994,
+                    0.974,
+                    0.979
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.988,
+                    1.0,
+                    0.998,
+                    0.998
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS,MWMOTE;SVM",
+                    "MSOSS;DNN"
+                ]
+            }
+        },
+        "132": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.604,
+                    0.67,
+                    0.66,
+                    0.668
+                ],
+                "technique": [
+                    "MSOSS,ADASYN;BPNN",
+                    "ClusterSMOTE;LDA",
+                    "SSMOTE;SVM",
+                    "ClusterSMOTE;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.707,
+                    0.749,
+                    0.784,
+                    0.792
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.76,
+                    0.861,
+                    0.822,
+                    0.812
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            }
+        },
+        "59": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.882,
+                    0.784,
+                    0.863,
+                    0.852
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "ADASYN;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.935,
+                    0.905,
+                    0.943,
+                    0.938
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "ASUWO,KMSMOTE;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.951,
+                    0.944,
+                    0.977,
+                    0.95
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            }
+        },
+        "100": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.891,
+                    0.49,
+                    0.916,
+                    0.79
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.992,
+                    0.823,
+                    0.928,
+                    0.927
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "ADASYN;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.995,
+                    0.899,
+                    0.998,
+                    0.911
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "ADASYN;LDA",
+                    "ClusterSMOTE;SVM",
+                    "ADASYN;DNN"
+                ]
+            }
+        },
+        "159": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.856,
+                    0.914,
+                    0.962,
+                    0.856
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "BSMOTE;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.947,
+                    0.967,
+                    0.987,
+                    0.947
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.979,
+                    0.996,
+                    0.998,
+                    0.979
+                ],
+                "technique": [
+                    "MSOSS,KMSMOTE;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS,ADASYN,SMOTE,ROS;SVM",
+                    "MSOSS,KMSMOTE;DNN"
+                ]
+            }
+        },
+        "12": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.218,
+                    0.159,
+                    0.378,
+                    0.398
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "ASUWO;SVM",
+                    "ASUWO;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.591,
+                    0.498,
+                    0.778,
+                    0.798
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.683,
+                    0.573,
+                    0.865,
+                    0.895
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            }
+        },
+        "81": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.457,
+                    0.501,
+                    0.518,
+                    0.548
+                ],
+                "technique": [
+                    "MWMOTE;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.61,
+                    0.634,
+                    0.666,
+                    0.696
+                ],
+                "technique": [
+                    "MSOSS,ADASYN;BPNN",
+                    "ASUWO;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.691,
+                    0.698,
+                    0.727,
+                    0.757
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "ASUWO;SVM",
+                    "ASUWO;DNN"
+                ]
+            }
+        },
+        "28": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.919,
+                    0.35,
+                    0.986,
+                    0.34
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.988,
+                    0.915,
+                    0.994,
+                    0.905
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "BSMOTE;LDA",
+                    "MSOSS;SVM",
+                    "BSMOTE;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.998,
+                    0.985,
+                    0.999,
+                    0.975
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            }
+        },
+        "122": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.805,
+                    0.635,
+                    0.637,
+                    0.655
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.93,
+                    0.861,
+                    0.861,
+                    0.881
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "BSMOTE;LDA",
+                    "BSMOTE;SVM",
+                    "BSMOTE;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.968,
+                    0.923,
+                    0.923,
+                    0.933
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "BSMOTE;LDA",
+                    "BSMOTE;SVM",
+                    "BSMOTE;DNN"
+                ]
+            }
+        },
+        "119": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.844,
+                    0.63,
+                    0.63,
+                    0.63
+                ],
+                "technique": [
+                    "ADASYN;BPNN",
+                    "ADASYN;LDA",
+                    "ADASYN;SVM",
+                    "ADASYN;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.95,
+                    0.921,
+                    0.922,
+                    0.901
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.971,
+                    0.972,
+                    0.972,
+                    0.952
+                ],
+                "technique": [
+                    "BSMOTE;BPNN",
+                    "BSMOTE;LDA",
+                    "BSMOTE;SVM",
+                    "BSMOTE;DNN"
+                ]
+            }
+        },
+        "183": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.581,
+                    0.597,
+                    0.616,
+                    0.616
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.706,
+                    0.717,
+                    0.726,
+                    0.736
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MWMOTE;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.781,
+                    0.789,
+                    0.813,
+                    0.813
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "ADASYN;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            }
+        },
+        "189": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.773,
+                    0.702,
+                    0.794,
+                    0.768
+                ],
+                "technique": [
+                    "ADASYN;BPNN",
+                    "ADASYN;LDA",
+                    "ADASYN;SVM",
+                    "ADASYN;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.908,
+                    0.916,
+                    0.933,
+                    0.903
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "ADASYN;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.945,
+                    0.968,
+                    0.976,
+                    0.94
+                ],
+                "technique": [
+                    "MWMOTE;BPNN",
+                    "ROS;LDA",
+                    "MSOSS,ADASYN;SVM",
+                    "MWMOTE;DNN"
+                ]
+            }
+        },
+        "187": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.769,
+                    0.736,
+                    0.798,
+                    0.753
+                ],
+                "technique": [
+                    "ADASYN;BPNN",
+                    "ADASYN;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.933,
+                    0.898,
+                    0.909,
+                    0.904
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MWMOTE;LDA",
+                    "SSMOTE;SVM",
+                    "SSMOTE;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.947,
+                    0.956,
+                    0.982,
+                    0.977
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "ASUWO;SVM",
+                    "ASUWO;DNN"
+                ]
+            }
+        },
+        "188": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.641,
+                    0.805,
+                    0.639,
+                    0.641
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "SMOTE;LDA",
+                    "ADASYN;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.792,
+                    0.703,
+                    0.742,
+                    0.792
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "ADASYN;LDA",
+                    "MSOSS;SVM",
+                    "MWMOTE;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.888,
+                    0.89,
+                    0.835,
+                    0.888
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "ADASYN;SVM",
+                    "MSOSS;DNN"
+                ]
+            }
+        },
+        "176": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.735,
+                    0.293,
+                    0.314,
+                    0.725
+                ],
+                "technique": [
+                    "ADASYN;BPNN",
+                    "MWMOTE;LDA",
+                    "MSOSS;SVM",
+                    "ADASYN;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.817,
+                    0.84,
+                    0.834,
+                    0.817
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.897,
+                    0.884,
+                    0.902,
+                    0.897
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "ADASYN;LDA",
+                    "ClusterSMOTE;SVM",
+                    "MSOSS;DNN"
+                ]
+            }
+        },
+        "191": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.677,
+                    0.497,
+                    0.616,
+                    0.581
+                ],
+                "technique": [
+                    "MSOSS,BSMOTE;BPNN",
+                    "MSOSS;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.962,
+                    0.961,
+                    0.963,
+                    0.958
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "ADASYN;SVM",
+                    "ADASYN;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.99,
+                    0.986,
+                    0.987,
+                    0.982
+                ],
+                "technique": [
+                    "MSOSS,MWMOTE;BPNN",
+                    "ROS,BSMOTE;LDA",
+                    "MWMOTE;SVM",
+                    "MWMOTE;DNN"
+                ]
+            }
+        },
+        "192": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.556,
+                    0.348,
+                    0.516,
+                    0.511
+                ],
+                "technique": [
+                    "ADASYN;BPNN",
+                    "MSOSS;LDA",
+                    "ADASYN;SVM",
+                    "ADASYN;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.876,
+                    0.882,
+                    0.873,
+                    0.863
+                ],
+                "technique": [
+                    "MWMOTE;BPNN",
+                    "SMOTE;LDA",
+                    "SMOTE;SVM",
+                    "SMOTE;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.947,
+                    0.943,
+                    0.953,
+                    0.943
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "SMOTE;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            }
+        },
+        "33": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.607,
+                    0.62,
+                    0.492,
+                    0.655
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "ADASYN;LDA",
+                    "MSOSS;SVM",
+                    "MSOSS;DNN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.656,
+                    0.901,
+                    0.853,
+                    0.876
+                ],
+                "technique": [
+                    "MSOSS;BPNN",
+                    "MSOSS;LDA",
+                    "SMOTE;SVM",
+                    "BSMOTE;DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.665,
+                    0.952,
+                    0.913,
+                    0.93
+                ],
+                "technique": [
+                    "ADASYN;BPNN",
+                    "BSMOTE;LDA",
+                    "MSOSS;SVM",
+                    "BSMOTE;DNN"
+                ]
+            }
+        }
+    }
+}

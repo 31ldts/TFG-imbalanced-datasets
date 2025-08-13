@@ -1,0 +1,67 @@
+{
+    "doi": "10.1111/exsy.13754",
+    "tittle": "BENN: Balanced Ensemble Neural Network for Handling Class Imbalance in Big Data",
+    "date": "02/2025",
+    "keywords": [
+        "Concept Drift",
+        "Decision Tree Regression",
+        "Decision Trees",
+        "Machine Learning",
+        "National Health Dataset",
+        "Random Forest"
+    ],
+    "IF": 3.0,
+    "CI": 0.64,
+    "datasets": {
+        "16": {
+            "accuracy": {
+                "value": [
+                    0.88
+                ],
+                "technique": [
+                    "BENN"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.88
+                ],
+                "technique": [
+                    "BENN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.91
+                ],
+                "technique": [
+                    "BENN"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.85
+                ],
+                "technique": [
+                    "BENN"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        }
+    }
+}

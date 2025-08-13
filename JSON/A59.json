@@ -1,0 +1,2337 @@
+{
+    "doi": "10.1016/j.asoc.2025.112718",
+    "tittle": "An oversampling technique based on noise detection and geometry",
+    "date": "02/2025",
+    "keywords": [
+        "Class Imbalance Learning",
+        "Oversampling",
+        "SMOTE",
+        "Data Generation"
+    ],
+    "IF": 7.2,
+    "CI": 1.48,
+    "datasets": {
+        "132": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9869,
+                    0.9784,
+                    0.9748,
+                    0.9529
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.989,
+                    0.9797,
+                    0.9732,
+                    0.9504
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9868,
+                    0.9782,
+                    0.9747,
+                    0.9528
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.989,
+                    0.9951,
+                    0.997,
+                    0.9604
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        },
+        "75": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9235,
+                    0.965,
+                    0.965,
+                    0.9548
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.965,
+                    0.9836,
+                    0.9646,
+                    0.9571
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9171,
+                    0.962,
+                    0.9631,
+                    0.9529
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.965,
+                    0.9965,
+                    0.9967,
+                    0.9539
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        },
+        "81": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9895,
+                    0.9891,
+                    0.9899,
+                    0.9956
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9942,
+                    0.9961
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9892,
+                    0.9887,
+                    0.9898,
+                    0.9956
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    0.9995,
+                    0.9967,
+                    0.9956
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        },
+        "141": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.998,
+                    0.9954,
+                    0.999,
+                    0.9958
+                ],
+                "technique": [
+                    "KNNOR;SVM",
+                    "NGSMOTE;kNN",
+                    "IWS-SMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9991,
+                    0.9974
+                ],
+                "technique": [
+                    "NGSMOTE,ADASYN;SVM",
+                    "NGSMOTE,ADASYN,SMOTE-ENN;kNN",
+                    "IWS-SMOTE;AdaBoost",
+                    "SMOTE-ENN;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.998,
+                    0.9953,
+                    0.9991,
+                    0.9961
+                ],
+                "technique": [
+                    "KNNOR;SVM",
+                    "NGSMOTE;kNN",
+                    "IWS-SMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    0.9998,
+                    1.0,
+                    0.9987
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "SMOTE-ENN;kNN",
+                    "NGSMOTE,SMOTE-ENN,SyM,IWS-SMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            }
+        },
+        "123": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9942,
+                    0.996,
+                    0.9978,
+                    0.9985
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "SMOTE-ENN;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE,ADASYN,SMOTE-ENN,IWS-SMOTE;kNN",
+                    "SMOTE,KMSMOTE,ADASYN,SMOTE-IPF,SMOTE-ENN,SyM,IWS-SMOTE;AdaBoost",
+                    "SMOTE,ADASYN,SMOTE-IPF,SMOTE-ENN;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9941,
+                    0.996,
+                    0.9976,
+                    0.9986
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "SMOTE-ENN,IWS-SMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    0.9998,
+                    1.0,
+                    0.9986
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE,IWS-SMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            }
+        },
+        "183": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9915,
+                    0.9704,
+                    0.9777,
+                    0.9185
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.9899,
+                    0.9813,
+                    0.9704,
+                    0.9071
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9915,
+                    0.9699,
+                    0.9779,
+                    0.9192
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9899,
+                    0.994,
+                    0.9959,
+                    0.9518
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        },
+        "114": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9868,
+                    0.9956,
+                    0.9969,
+                    0.9988
+                ],
+                "technique": [
+                    "SMOTE;SVM",
+                    "NGSMOTE,SMOTE-ENN;kNN",
+                    "IWS-SMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "NGSMOTE,ADASYN,SMOTE-IPF,SMOTE-ENN,IWS-SMOTE;SVM",
+                    "NGSMOTE,Borderline2SMOTE,ADASYN,SMOTE-ENN,IWS-SMOTE;kNN",
+                    "IWS-SMOTE;AdaBoost",
+                    "NGSMOTE,IWS-SMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9971,
+                    0.9954,
+                    0.9972,
+                    0.9988
+                ],
+                "technique": [
+                    "SMOTE-ENN;SVM",
+                    "NGSMOTE,SMOTE-ENN;kNN",
+                    "IWS-SMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.9989
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "SMOTE-ENN;kNN",
+                    "ADASYN,IWS-SMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            }
+        },
+        "60": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    1.0,
+                    0.9947,
+                    0.9935,
+                    0.9883
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9976,
+                    0.984
+                ],
+                "technique": [
+                    "NGSMOTE,IWS-SMOTE;SVM",
+                    "NGSMOTE,ADASYN,IWS-SMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0,
+                    0.9946,
+                    0.9934,
+                    0.9883
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9979,
+                    0.9884
+                ],
+                "technique": [
+                    "NGSMOTE,IWS-SMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "SMOTE-ENN;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        },
+        "187": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9993,
+                    0.9991,
+                    0.9965,
+                    0.9914
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "IWS-SMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.993,
+                    0.9936
+                ],
+                "technique": [
+                    "IWS-SMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "IWS-SMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9993,
+                    0.9991,
+                    0.9965,
+                    0.9916
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "IWS-SMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9995,
+                    1.0,
+                    1.0,
+                    0.9944
+                ],
+                "technique": [
+                    "IWS-SMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            }
+        },
+        "186": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9972,
+                    0.9883,
+                    0.992,
+                    0.9753
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.9945,
+                    1.0,
+                    0.9895,
+                    0.9796
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9972,
+                    0.988,
+                    0.992,
+                    0.9751
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9945,
+                    0.9983,
+                    0.9997,
+                    0.9727
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        },
+        "159": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9966,
+                    0.9922
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9966,
+                    0.9909
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE,ADASYN;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9966,
+                    0.9922
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9986,
+                    0.9922
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "IWS-SMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        },
+        "47": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    1.0,
+                    0.9988,
+                    0.9961,
+                    0.9839
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "SMOTE-ENN;kNN",
+                    "SMOTE-ENN;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9984,
+                    0.9892
+                ],
+                "technique": [
+                    "NGSMOTE,ADASYN,SMOTE-IPF,SMOTE-ENN;SVM",
+                    "NGSMOTE,ADASYN,SMOTE-IPF,IWS-SMOTE;kNN",
+                    "SMOTE-ENN;AdaBoost",
+                    "ADASYN;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0,
+                    0.9988,
+                    0.996,
+                    0.9838
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "SMOTE-ENN;kNN",
+                    "SMOTE-ENN;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.9874
+                ],
+                "technique": [
+                    "NGSMOTE,SMOTE-ENN;SVM",
+                    "SMOTE-ENN;kNN",
+                    "NGSMOTE,SMOTE-ENN;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        },
+        "184": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9912,
+                    0.9877,
+                    0.9834,
+                    0.9637
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "KNNOR;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.9969,
+                    1.0,
+                    0.981,
+                    0.95
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9911,
+                    0.9873,
+                    0.9834,
+                    0.9639
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "KNNOR;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9969,
+                    0.9969,
+                    0.999,
+                    0.9748
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "KNNOR;DT"
+                ]
+            }
+        },
+        "7": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9927,
+                    0.9943,
+                    0.9956,
+                    0.9787
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.9959,
+                    1.0,
+                    0.995,
+                    0.9711
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9926,
+                    0.9942,
+                    0.9956,
+                    0.9789
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9959,
+                    0.9984,
+                    1.0,
+                    0.9826
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        },
+        "77": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9933,
+                    0.9995,
+                    0.9967,
+                    0.9884
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.9933,
+                    1.0,
+                    0.9989,
+                    0.9941
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE,SMOTE,Borderline2SMOTE,ADASYN,SMOTE-IPF,SMOTE-ENN,IWS-SMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9933,
+                    0.9994,
+                    0.9966,
+                    0.9884
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9933,
+                    1.0,
+                    0.9992,
+                    0.9885
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE,IWS-SMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            }
+        },
+        "135": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    1.0,
+                    0.9986,
+                    0.9996,
+                    0.9946
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9992,
+                    0.9993
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE,ADASYN,SMOTE-IPF,SMOTE-ENN,IWS-SMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "ADASYN;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0,
+                    0.9986,
+                    0.9996,
+                    0.9946
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    0.9999,
+                    1.0,
+                    0.9973
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "SyM;DT"
+                ]
+            }
+        },
+        "190": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9983,
+                    0.9964,
+                    0.9973,
+                    0.9949
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.9992,
+                    1.0,
+                    0.9968,
+                    0.9973
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE,SMOTE-ENN;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9983,
+                    0.9964,
+                    0.9973,
+                    0.9949
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9992,
+                    0.9998,
+                    1.0,
+                    0.9958
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        },
+        "192": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9992,
+                    0.9996,
+                    0.9981,
+                    0.9965
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9984,
+                    0.9966
+                ],
+                "technique": [
+                    "NGSMOTE,IWS-SMOTE;SVM",
+                    "NGSMOTE,IWS-SMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9992,
+                    0.9996,
+                    0.9981,
+                    0.9965
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.9966
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        },
+        "37": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "NGSMOTE,SMOTE-ENN;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE,IWS-SMOTE;AdaBoost",
+                    "NGSMOTE,IWS-SMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "NGSMOTE,SMOTE,ADASYN,SMOTE-IPF,SMOTE-ENN,IWS-SMOTE;SVM",
+                    "NGSMOTE,SMOTE,ADASYN,SMOTE-IPF,SMOTE-ENN,IWS-SMOTE;kNN",
+                    "NGSMOTE,Borderline2SMOTE,ADASYN,IWS-SMOTE;AdaBoost",
+                    "NGSMOTE,IWS-SMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "NGSMOTE,SMOTE-ENN;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE,IWS-SMOTE;AdaBoost",
+                    "NGSMOTE,IWS-SMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "NGSMOTE,SMOTE,ADASYN,SMOTE-IPF,SMOTE-ENN,IWS-SMOTE;SVM",
+                    "NGSMOTE,SMOTE-ENN;kNN",
+                    "NGSMOTE,IWS-SMOTE;AdaBoost",
+                    "NGSMOTE,IWS-SMOTE;DT"
+                ]
+            }
+        },
+        "188": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        },
+        "122": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9903,
+                    0.9963,
+                    0.9977,
+                    0.9964
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.9808,
+                    0.9932,
+                    0.9992,
+                    0.9967
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9904,
+                    0.9963,
+                    0.9977,
+                    0.9964
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9849,
+                    0.9998,
+                    1.0,
+                    0.9964
+                ],
+                "technique": [
+                    "SyM;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        },
+        "67": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9729,
+                    0.9835,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "NGSMOTE,SMOTE,Borderline2SMOTE,KMSMOTE,SMOTE-IPF,SMOTE-ENN,SyM,KNNOR,IWS-SMOTE;SVM",
+                    "NGSMOTE,SMOTE-ENN;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9706,
+                    0.9825,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        },
+        "136": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.985
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "KNNOR;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.9814
+                ],
+                "technique": [
+                    "NGSMOTE,SMOTE,SMOTE-IPF,SMOTE-ENN,IWS-SMOTE;SVM",
+                    "NGSMOTE,SMOTE-ENN;kNN",
+                    "NGSMOTE,IWS-SMOTE;AdaBoost",
+                    "ADASYN;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.9851
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "KNNOR;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.9852
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "KNNOR;DT"
+                ]
+            }
+        },
+        "163": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.998,
+                    0.9912
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "ADASYN;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9987,
+                    0.9988
+                ],
+                "technique": [
+                    "NGSMOTE,SMOTE,KMSMOTE,SMOTE-IPF,SMOTE-ENN,KNNOR;SVM",
+                    "NGSMOTE,SMOTE,KMSMOTE,SMOTE-IPF,SMOTE-ENN,IWS-SMOTE;kNN",
+                    "SMOTE-ENN;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.998,
+                    0.9912
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "ADASYN;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.994
+                ],
+                "technique": [
+                    "NGSMOTE,SMOTE,SMOTE-IPF,SMOTE-ENN,KNNOR;SVM",
+                    "NGSMOTE,SMOTE,Borderline2SMOTE,KMSMOTE,ADASYN,SMOTE-IPF,SMOTE-ENN,KNNOR;kNN",
+                    "IWS-SMOTE;AdaBoost",
+                    "ADASYN;DT"
+                ]
+            }
+        },
+        "64": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9975,
+                    0.9946,
+                    0.9976,
+                    0.9978
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9961,
+                    0.9982
+                ],
+                "technique": [
+                    "NGSMOTE,IWS-SMOTE;SVM",
+                    "NGSMOTE,IWS-SMOTE;kNN",
+                    "NGSMOTE,IWS-SMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9975,
+                    0.9946,
+                    0.9976,
+                    0.9979
+                ],
+                "technique": [
+                    "IWS-SMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    0.9991,
+                    0.9999,
+                    0.9979
+                ],
+                "technique": [
+                    "NGSMOTE,IWS-SMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "IWS-SMOTE;DT"
+                ]
+            }
+        },
+        "133": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    1.0,
+                    0.9978,
+                    0.9932,
+                    0.9959
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "KNNOR;AdaBoost",
+                    "SyM;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9901,
+                    0.999
+                ],
+                "technique": [
+                    "NGSMOTE,SMOTE,ADASYN,SMOTE-IPF,SMOTE-ENN,IWS-SMOTE;SVM",
+                    "NGSMOTE,SMOTE,ADASYN,SMOTE-IPF,SMOTE-ENN,KNNOR,IWS-SMOTE;kNN",
+                    "SyM;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0,
+                    0.9977,
+                    0.9932,
+                    0.9959
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "KNNOR;AdaBoost",
+                    "SyM;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9959,
+                    0.9988
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "IWS-SMOTE;AdaBoost",
+                    "KNNOR;DT"
+                ]
+            }
+        },
+        "5": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9784,
+                    0.9952,
+                    0.9908,
+                    0.9795
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0,
+                    1.0,
+                    0.9917,
+                    0.9827
+                ],
+                "technique": [
+                    "Borderline2SMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9785,
+                    0.9951,
+                    0.9908,
+                    0.9794
+                ],
+                "technique": [
+                    "NGSMOTE;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9877,
+                    0.9995,
+                    0.9986,
+                    0.989
+                ],
+                "technique": [
+                    "SyM;SVM",
+                    "NGSMOTE;kNN",
+                    "NGSMOTE;AdaBoost",
+                    "NGSMOTE;DT"
+                ]
+            }
+        }
+    }
+}

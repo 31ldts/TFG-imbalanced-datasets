@@ -1,0 +1,915 @@
+{
+    "doi": "10.1016/j.ins.2024.121584",
+    "tittle": "SGO: An innovative oversampling approach for imbalanced datasets using SVM and genetic algorithms",
+    "date": "02/2025",
+    "keywords": [
+        "Class-Imbalanced Learning",
+        "Genetic Algorithm (GA)",
+        "Over-Sampling Techniques",
+        "Support Vector Machine (SVM)"
+    ],
+    "IF": 0.0,
+    "CI": 2.08,
+    "datasets": {
+        "6": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8916
+                ],
+                "technique": [
+                    "SGO;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8954
+                ],
+                "technique": [
+                    "SGO;SVM"
+                ]
+            }
+        },
+        "37": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "SGO;kNN,RF,SVM,ANN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "SGO;kNN,RF,SVM,ANN"
+                ]
+            }
+        },
+        "58": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8988
+                ],
+                "technique": [
+                    "SGO;kNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9008
+                ],
+                "technique": [
+                    "SGO;kNN"
+                ]
+            }
+        },
+        "59": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9321
+                ],
+                "technique": [
+                    "SGO;kNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9329
+                ],
+                "technique": [
+                    "SGO;kNN"
+                ]
+            }
+        },
+        "60": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8914
+                ],
+                "technique": [
+                    "SGO;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.893
+                ],
+                "technique": [
+                    "SGO;kNN"
+                ]
+            }
+        },
+        "67": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8326
+                ],
+                "technique": [
+                    "SGO;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8341
+                ],
+                "technique": [
+                    "SGO;SVM"
+                ]
+            }
+        },
+        "79": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9547
+                ],
+                "technique": [
+                    "SGO;SVM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9559
+                ],
+                "technique": [
+                    "SGO;SVM"
+                ]
+            }
+        },
+        "93": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "SGO;kNN,RF,SVM,XGB"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "SGO;kNN,RF,SVM,XGB"
+                ]
+            }
+        },
+        "95": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "SGO;SVM,XGB"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "SGO;SVM,XGB"
+                ]
+            }
+        },
+        "114": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9869
+                ],
+                "technique": [
+                    "SGO;ANN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9871
+                ],
+                "technique": [
+                    "SGO;ANN"
+                ]
+            }
+        },
+        "133": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.5643
+                ],
+                "technique": [
+                    "SGO;NB"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.6524
+                ],
+                "technique": [
+                    "SGO;SVM"
+                ]
+            }
+        },
+        "134": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9666
+                ],
+                "technique": [
+                    "SGO;ANN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9694
+                ],
+                "technique": [
+                    "SGO;ANN"
+                ]
+            }
+        },
+        "161": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9784
+                ],
+                "technique": [
+                    "SGO;XGB"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9786
+                ],
+                "technique": [
+                    "SGO;XGB"
+                ]
+            }
+        },
+        "169": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7835
+                ],
+                "technique": [
+                    "SGO;NB"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.7897
+                ],
+                "technique": [
+                    "SGO;NB"
+                ]
+            }
+        },
+        "170": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.732
+                ],
+                "technique": [
+                    "SGO;RF"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.76
+                ],
+                "technique": [
+                    "SGO;RF"
+                ]
+            }
+        },
+        "171": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.98
+                ],
+                "technique": [
+                    "SGO;RF"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9801
+                ],
+                "technique": [
+                    "SGO;RF"
+                ]
+            }
+        },
+        "183": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7166
+                ],
+                "technique": [
+                    "SGO;RF"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.7207
+                ],
+                "technique": [
+                    "SGO;RF"
+                ]
+            }
+        },
+        "189": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9172
+                ],
+                "technique": [
+                    "SGO;RF"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9177
+                ],
+                "technique": [
+                    "SGO;RF"
+                ]
+            }
+        }
+    }
+}

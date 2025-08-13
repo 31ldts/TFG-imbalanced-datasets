@@ -1,0 +1,814 @@
+{
+    "doi": "10.1007/s00500-022-07705-5",
+    "tittle": "Class-specific extreme learning machine based on overall distribution for addressing binary imbalance problem",
+    "date": "12/2022",
+    "keywords": [
+        "Class imbalance learning",
+        "Extreme learning machine",
+        "Classification."
+    ],
+    "IF": 3.1,
+    "CI": 0.69,
+    "datasets": {
+        "4": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8103
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8265
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "190": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8501000000000001
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8987999999999999
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "61": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9872
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.996
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "76": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8223999999999999
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8865000000000001
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "163": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "189": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9314
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9712000000000001
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "79": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9666
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9636
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "141": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.998
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.998
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "59": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9425
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9581000000000001
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "159": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.996
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9998
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "81": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.6690999999999999
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.6968000000000001
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "160": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8540000000000001
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9176000000000001
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "161": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9923000000000001
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9176000000000001
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "132": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7587999999999999
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8116
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "171": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9754999999999999
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9954000000000001
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "14": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9028
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.938
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        }
+    }
+}

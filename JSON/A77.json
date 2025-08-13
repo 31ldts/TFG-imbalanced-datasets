@@ -1,0 +1,65 @@
+{
+    "doi": "10.1016/j.engappai.2024.109597",
+    "tittle": "WIGNN: An adaptive graph-structured reasoning model for credit default prediction",
+    "date": "01/2025",
+    "keywords": [
+        "Credit default",
+        "Graph neural networks",
+        "Weighted connectivity",
+        "Data imbalance"
+    ],
+    "IF": 7.5,
+    "CI": 1.8,
+    "datasets": {
+        "65": {
+            "accuracy": {
+                "value": [
+                    0.7845
+                ],
+                "technique": [
+                    "Graph Sage"
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7216
+                ],
+                "technique": [
+                    "DNN"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8226
+                ],
+                "technique": [
+                    "WIGNN"
+                ]
+            }
+        }
+    }
+}

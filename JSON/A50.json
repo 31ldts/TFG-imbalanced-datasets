@@ -1,0 +1,115 @@
+{
+    "doi": "10.1016/j.knosys.2023.110646",
+    "tittle": "Synthesizing credit data using autoencoders and generative adversarial networks",
+    "date": "08/2023",
+    "keywords": [
+        "Autoencoders",
+        "Generative adversarial networks",
+        "Tabular data",
+        "Credit risk data"
+    ],
+    "IF": 7.2,
+    "CI": 1.39,
+    "datasets": {
+        "9": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.833
+                ],
+                "technique": [
+                    "SYMPROD;RF"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.89
+                ],
+                "technique": [
+                    "TAE-GAN;RF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.918
+                ],
+                "technique": [
+                    "CTGAN;RF"
+                ]
+            }
+        },
+        "65": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.695
+                ],
+                "technique": [
+                    "CTGAN;RF"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.69
+                ],
+                "technique": [
+                    "TAE-GAN;RF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.81
+                ],
+                "technique": [
+                    "TAE-GAN;RF"
+                ]
+            }
+        }
+    }
+}

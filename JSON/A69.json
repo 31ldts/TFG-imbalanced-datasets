@@ -1,0 +1,317 @@
+{
+    "doi": "10.1016/j.engappai.2023.107829",
+    "tittle": "Global and local interpretability techniques of supervised machine learning black box models for numerical medical data",
+    "date": "05/2024",
+    "keywords": [
+        "Interpretability",
+        "XAI",
+        "Explainability",
+        "Black Box",
+        "Numerical Data",
+        "Medicine"
+    ],
+    "IF": 7.5,
+    "CI": 1.8,
+    "datasets": {
+        "20": {
+            "accuracy": {
+                "value": [
+                    0.956
+                ],
+                "technique": [
+                    "SMOTE;SVM"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.974
+                ],
+                "technique": [
+                    "SMOTE;SVM"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.981
+                ],
+                "technique": [
+                    "SMOTE;MLP"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.982
+                ],
+                "technique": [
+                    "SMOTE;SVM"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.997
+                ],
+                "technique": [
+                    "SMOTE;MLP,SVM"
+                ]
+            }
+        },
+        "19": {
+            "accuracy": {
+                "value": [
+                    0.974
+                ],
+                "technique": [
+                    "SMOTE;RF,NB"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.965
+                ],
+                "technique": [
+                    "SMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "SMOTE;MLP,NB"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.977
+                ],
+                "technique": [
+                    "SMOTE;RF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.998
+                ],
+                "technique": [
+                    "SMOTE;MLP,RF,NB"
+                ]
+            }
+        },
+        "39": {
+            "accuracy": {
+                "value": [
+                    0.735
+                ],
+                "technique": [
+                    "SMOTE;SVM"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.727
+                ],
+                "technique": [
+                    "SMOTE;XGB"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.868
+                ],
+                "technique": [
+                    "SMOTE;SVM"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.687
+                ],
+                "technique": [
+                    "SMOTE;XGB"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.822
+                ],
+                "technique": [
+                    "SMOTE;SVM"
+                ]
+            }
+        },
+        "148": {
+            "accuracy": {
+                "value": [
+                    0.802
+                ],
+                "technique": [
+                    "SMOTE;NB"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.875
+                ],
+                "technique": [
+                    "SMOTE;NB"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.903
+                ],
+                "technique": [
+                    "SMOTE;NB"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.848
+                ],
+                "technique": [
+                    "SMOTE;NB"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.885
+                ],
+                "technique": [
+                    "SMOTE;NB"
+                ]
+            }
+        },
+        "149": {
+            "accuracy": {
+                "value": [
+                    0.827
+                ],
+                "technique": [
+                    "SMOTE;RF,XGB"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.89
+                ],
+                "technique": [
+                    "SMOTE;XGB"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.978
+                ],
+                "technique": [
+                    "SMOTE;NB"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.969
+                ],
+                "technique": [
+                    "SMOTE;SVM"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.905
+                ],
+                "technique": [
+                    "SMOTE;SVM"
+                ]
+            }
+        },
+        "124": {
+            "accuracy": {
+                "value": [
+                    0.923
+                ],
+                "technique": [
+                    "SMOTE;RF,XGB,NB"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.953
+                ],
+                "technique": [
+                    "SMOTE;RF,XGB"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.939
+                ],
+                "technique": [
+                    "SMOTE;RF,XGB"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.875
+                ],
+                "technique": [
+                    "SMOTE;MLP,SVM"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.964
+                ],
+                "technique": [
+                    "SMOTE;XGB"
+                ]
+            }
+        }
+    }
+}

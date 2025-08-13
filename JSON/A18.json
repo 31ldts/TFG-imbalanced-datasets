@@ -1,0 +1,766 @@
+{
+    "doi": "10.1007/s11334-024-00571-4",
+    "tittle": "Handling class overlap and imbalance using overlap driven under-sampling with balanced random forest in software defect prediction",
+    "date": "06/2024",
+    "keywords": [
+        "Class Imbalance Problem",
+        "Machine Learning",
+        "Software Defect Prediction",
+        "Over-Sampling",
+        "Under-Sampling"
+    ],
+    "IF": 1.1,
+    "CI": 0.34,
+    "datasets": {
+        "125": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.88
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.78
+                ],
+                "technique": [
+                    "EasyEnsemble"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.776
+                ],
+                "technique": [
+                    "EasyEnsemble"
+                ]
+            }
+        },
+        "126": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.71
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.76
+                ],
+                "technique": [
+                    "EasyEnsemble"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.765
+                ],
+                "technique": [
+                    "EasyEnsemble"
+                ]
+            }
+        },
+        "127": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.84
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.77
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.77
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            }
+        },
+        "128": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.94
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.88
+                ],
+                "technique": [
+                    "EasyEnsemble"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.877
+                ],
+                "technique": [
+                    "EasyEnsemble"
+                ]
+            }
+        },
+        "91": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.69
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.64
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.64
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            }
+        },
+        "30": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.91
+                ],
+                "technique": [
+                    "RUS;RF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.75
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.752
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            }
+        },
+        "90": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.68
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.67
+                ],
+                "technique": [
+                    "RUS;RF"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.669
+                ],
+                "technique": [
+                    "EasyEnsemble"
+                ]
+            }
+        },
+        "22": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.65
+                ],
+                "technique": [
+                    "RUS;RF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.61
+                ],
+                "technique": [
+                    "RUS;RF"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.619
+                ],
+                "technique": [
+                    "BSMOTE;RF"
+                ]
+            }
+        },
+        "23": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.7
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.64
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.644
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            }
+        },
+        "24": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.74
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.66
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.67
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            }
+        },
+        "88": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.79
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.75
+                ],
+                "technique": [
+                    "EasyEnsemble"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.776
+                ],
+                "technique": [
+                    "EasyEnsemble"
+                ]
+            }
+        },
+        "89": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.86
+                ],
+                "technique": [
+                    "EasyEnsemble"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.79
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.769
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            }
+        },
+        "174": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.72
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.74
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.743
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            }
+        },
+        "173": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.82
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.75
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.753
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            }
+        },
+        "152": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.8
+                ],
+                "technique": [
+                    "BNSC;BRF"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.78
+                ],
+                "technique": [
+                    "SMOTEBoost"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.788
+                ],
+                "technique": [
+                    "SMOTEBoost"
+                ]
+            }
+        }
+    }
+}

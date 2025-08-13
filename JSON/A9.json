@@ -1,0 +1,1916 @@
+{
+    "doi": "10.1016/j.eswa.2020.114041",
+    "tittle": "A clustering based ensemble of weighted kernelized extreme learning machine for class imbalance learning",
+    "date": "01/2021",
+    "keywords": [
+        "Classification",
+        "Class Imbalance Learning",
+        "Extreme Learning Machine",
+        "Ensemble Method",
+        "Problem Decomposition"
+    ],
+    "IF": 7.5,
+    "CI": 1.61,
+    "datasets": {
+        "7": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9312999999999999
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9691
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "46": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8862000000000001
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9909
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "45": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9640000000000001
+                ],
+                "technique": [
+                    "CBWKELM;MV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9943000000000001
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "43": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9864
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9954000000000001
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "58": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9104000000000001
+                ],
+                "technique": [
+                    "KWELM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9632
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "59": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.95
+                ],
+                "technique": [
+                    "WKSMOTE"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9717
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "60": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9093000000000001
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9681000000000001
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "61": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9839
+                ],
+                "technique": [
+                    "CBWKELM;MV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9976
+                ],
+                "technique": [
+                    "CBUS;KELM"
+                ]
+            }
+        },
+        "68": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9601999999999999
+                ],
+                "technique": [
+                    "CBWKELM;MV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9921
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "72": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9884999999999999
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9971
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "67": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8641
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9095
+                ],
+                "technique": [
+                    "KWELM"
+                ]
+            }
+        },
+        "75": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8201
+                ],
+                "technique": [
+                    "UBKELM-MV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8778
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "76": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8872
+                ],
+                "technique": [
+                    "CBWKELM;MV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9074
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "77": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9568000000000001
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9858
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "78": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9951000000000001
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "79": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9571999999999999
+                ],
+                "technique": [
+                    "CBWKELM;MV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.991
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "81": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.6717
+                ],
+                "technique": [
+                    "CBWKELM;MV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.7170000000000001
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "86": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "114": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9972
+                ],
+                "technique": [
+                    "KWELM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "115": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9972
+                ],
+                "technique": [
+                    "KWELM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "132": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7667
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8418000000000001
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "141": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "WKSMOTE"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "159": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9969
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9998999999999999
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "160": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8769
+                ],
+                "technique": [
+                    "CBWKELM;MV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9311
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "161": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9945
+                ],
+                "technique": [
+                    "KWELM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9995999999999999
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "163": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "171": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9797
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9961
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "182": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8345
+                ],
+                "technique": [
+                    "UBKELM-SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8996
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "185": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.78
+                ],
+                "technique": [
+                    "CBWKELM;MV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8294
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "186": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7123999999999999
+                ],
+                "technique": [
+                    "UBKELM-MV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.7491
+                ],
+                "technique": [
+                    "WKSMOTE"
+                ]
+            }
+        },
+        "184": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7837999999999999
+                ],
+                "technique": [
+                    "CBWKELM;MV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8609
+                ],
+                "technique": [
+                    "UBKELM-SV"
+                ]
+            }
+        },
+        "187": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.929
+                ],
+                "technique": [
+                    "CBWKELM;MV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9828
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "188": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8238
+                ],
+                "technique": [
+                    "CBUS;KELM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8734999999999999
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "183": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.7362000000000001
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8101
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "189": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9365000000000001
+                ],
+                "technique": [
+                    "CBWKELM;MV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9758
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "190": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.8543999999999999
+                ],
+                "technique": [
+                    "CBUS;KELM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.912
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "191": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9818000000000001
+                ],
+                "technique": [
+                    "KWELM"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9933
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        },
+        "192": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.9046
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9472
+                ],
+                "technique": [
+                    "CBWKELM;SV"
+                ]
+            }
+        }
+    }
+}

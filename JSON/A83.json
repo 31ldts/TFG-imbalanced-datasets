@@ -1,0 +1,635 @@
+{
+    "doi": "10.1016/j.asoc.2023.110406",
+    "tittle": "Mega trend diffusion;siamese network oversampling for imbalanced datasets' SVM classification",
+    "date": "08/2023",
+    "keywords": [
+        "Imbalanced datasets",
+        "Support vectors",
+        "Siamese network",
+        "Virtual instances"
+    ],
+    "IF": 7.2,
+    "CI": 1.48,
+    "datasets": {
+        "43": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.92,
+                    0.92
+                ],
+                "technique": [
+                    "DB-MTD-SN;SVM linear",
+                    "DB-MTD-SN;SVM rbf"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.932,
+                    0.932
+                ],
+                "technique": [
+                    "DB-MTD-SN;SVM linear",
+                    "DB-MTD-SN;SVM rbf"
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "171": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.95,
+                    0.953
+                ],
+                "technique": [
+                    "DB-MTD-SN;SVM linear",
+                    "DB-MTD-SN;SVM rbf"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.958,
+                    0.962
+                ],
+                "technique": [
+                    "DB-MTD-SN;SVM linear",
+                    "DB-MTD-SN;SVM rbf"
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "132": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.663,
+                    0.659
+                ],
+                "technique": [
+                    "DB-MTD-SN;SVM linear",
+                    "DB-MTD-SN;SVM rbf"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.75,
+                    0.751
+                ],
+                "technique": [
+                    "DB-MTD-SN;SVM linear",
+                    "DB-MTD-SN;SVM rbf"
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "81": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.643,
+                    0.633
+                ],
+                "technique": [
+                    "DB-MTD-SN;SVM linear",
+                    "DB-MTD-SN;SVM rbf"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.746,
+                    0.739
+                ],
+                "technique": [
+                    "DB-MTD-SN;SVM linear",
+                    "DB-MTD-SN;SVM rbf"
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "58": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.801,
+                    0.799
+                ],
+                "technique": [
+                    "SMOTE-PSO;SVM linear",
+                    "SMOTE-PSO;SVM rbf"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.863,
+                    0.858
+                ],
+                "technique": [
+                    "SMOTE-PSO;SVM linear",
+                    "SMOTE-PSO;SVM rbf"
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "114": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.961,
+                    0.946
+                ],
+                "technique": [
+                    "SMOTE-PSO;SVM linear",
+                    "DB-MTD-SN;SVM rbf"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.975,
+                    0.957
+                ],
+                "technique": [
+                    "DB-MTD-SN;SVM linear",
+                    "DB-MTD-SN;SVM rbf"
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "59": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.75,
+                    0.864
+                ],
+                "technique": [
+                    "SSMOTE;SVM linear",
+                    "SSMOTE;SVM rbf"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.866,
+                    0.919
+                ],
+                "technique": [
+                    "SSMOTE;SVM linear",
+                    "SSMOTE;SVM rbf"
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "122": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.753,
+                    0.738
+                ],
+                "technique": [
+                    "Original,SMMO;SVM linear",
+                    "SMOTE-PSO;SVM rbf"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.85,
+                    0.88
+                ],
+                "technique": [
+                    "SMOTE-PSO;SVM linear",
+                    "SMOTE-PSO;SVM rbf"
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "48": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.766,
+                    0.93
+                ],
+                "technique": [
+                    "Original;SVM linear",
+                    "Original,SMMO;SVM rbf"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    0.861,
+                    0.947
+                ],
+                "technique": [
+                    "SMMO;SVM linear",
+                    "SSMOTE,SMOTE-PSO;SVM rbf"
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            }
+        },
+        "37": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.999,
+                    0.997
+                ],
+                "technique": [
+                    "SMOTE-PSO;SVM linear",
+                    "DB-MTD-SN;SVM rbf"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    1.0,
+                    0.998
+                ],
+                "technique": [
+                    "SMOTE-PSO;SVM linear",
+                    "DB-MTD-SN;SVM rbf"
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            }
+        }
+    }
+}

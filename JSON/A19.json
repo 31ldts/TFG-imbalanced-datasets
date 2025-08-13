@@ -1,0 +1,65 @@
+{
+    "doi": "10.1177/20552076241240910",
+    "tittle": "Improved interpretable machine learning emergency department triage tool addressing class imbalance",
+    "date": "03/2024",
+    "keywords": [
+        "Machine learning",
+        "Emergency department",
+        "Triage",
+        "Interpretable"
+    ],
+    "IF": 2.9,
+    "CI": 0.96,
+    "datasets": {
+        "146": {
+            "accuracy": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.905
+                ],
+                "technique": [
+                    "SERP+"
+                ]
+            }
+        }
+    }
+}

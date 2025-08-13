@@ -1,0 +1,822 @@
+{
+    "doi": "10.1016/j.compeleceng.2024.109925",
+    "tittle": "ConCave;Convex procedure for support vector machines with Huber loss for text classification",
+    "date": "03/2025",
+    "keywords": [
+        "Support vector machine",
+        "Hinge loss",
+        "ConCave;Convex procedure",
+        "Ramp loss function",
+        "Huber loss functions"
+    ],
+    "IF": 4.0,
+    "CI": 1.01,
+    "datasets": {
+        "9": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8699,
+                    0.8725
+                ],
+                "technique": [
+                    "RSVM;linear kernel",
+                    "HSVM;Gaussian kernel"
+                ]
+            }
+        },
+        "65": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.7316,
+                    0.7386
+                ],
+                "technique": [
+                    "EFSVM;linear kernel",
+                    "ACFSVM;Gaussian kernel"
+                ]
+            }
+        },
+        "114": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9805,
+                    0.9974
+                ],
+                "technique": [
+                    "EFSVM;linear kernel",
+                    "HSVM;Gaussian kernel"
+                ]
+            }
+        },
+        "45": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9471,
+                    0.975
+                ],
+                "technique": [
+                    "pinSVM;linear kernel",
+                    "LrbssSVM;Gaussian kernel"
+                ]
+            }
+        },
+        "55": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9444,
+                    0.966
+                ],
+                "technique": [
+                    "pinSVM;linear kernel",
+                    "LrbssSVM;Gaussian kernel"
+                ]
+            }
+        },
+        "56": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9096,
+                    0.9502
+                ],
+                "technique": [
+                    "HSVM;linear kernel",
+                    "LrbssSVM;Gaussian kernel"
+                ]
+            }
+        },
+        "181": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.7536,
+                    0.8777
+                ],
+                "technique": [
+                    "HSVM;linear kernel",
+                    "LrbssSVM;Gaussian kernel"
+                ]
+            }
+        },
+        "188": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9585,
+                    0.9585
+                ],
+                "technique": [
+                    "LrbssSVM;linear kernel",
+                    "LrbssSVM;Gaussian kernel"
+                ]
+            }
+        },
+        "75": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.7198,
+                    0.796
+                ],
+                "technique": [
+                    "HSVM;linear kernel",
+                    "HSVM;Gaussian kernel"
+                ]
+            }
+        },
+        "143": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9997,
+                    1.0
+                ],
+                "technique": [
+                    "HSVM;linear kernel",
+                    "HSVM;Gaussian kernel"
+                ]
+            }
+        },
+        "160": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.8161,
+                    0.8614
+                ],
+                "technique": [
+                    "HSVM;linear kernel",
+                    "HSVM;Gaussian kernel"
+                ]
+            }
+        },
+        "161": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9657,
+                    0.9935
+                ],
+                "technique": [
+                    "HSVM;linear kernel",
+                    "LSSVM;Gaussian kernel"
+                ]
+            }
+        },
+        "166": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    0.9866,
+                    0.9938
+                ],
+                "technique": [
+                    "HSVM;linear kernel",
+                    "ACFSVM;Gaussian kernel"
+                ]
+            }
+        }
+    }
+}

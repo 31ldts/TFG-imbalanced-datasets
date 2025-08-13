@@ -1,0 +1,19 @@
+/.venv
+/.vscode
+/Articles
+/conversonJSON.py
+/eliminar.py
+/jsonformatter.txt
+/jsonformatter.xml
+/Proposta TFG class imbalance.docx
+/resultado.txt
+/Reviews
+/rutas.txt
+/salida.csv
+/sheets
+/tablas
+/tablas_filtradas
+/table_parser.py
+/TesiDoctoral JordiPascual.pdf
+/test.csv
+/train.csv

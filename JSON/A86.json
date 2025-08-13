@@ -1,0 +1,317 @@
+{
+    "doi": "10.1016/j.neunet.2024.106157",
+    "tittle": "Enhancing and improving the performance of imbalanced class data using novel GBO and SSG: A comparative analysis",
+    "date": "05/2024",
+    "keywords": [
+        "GAN",
+        "Imbalanced class data",
+        "Minor sample",
+        "Neural network",
+        "Oversampling",
+        "SMOTE"
+    ],
+    "IF": 6.0,
+    "CI": 1.55,
+    "datasets": {
+        "123": {
+            "accuracy": {
+                "value": [
+                    0.99
+                ],
+                "technique": [
+                    "SMOTE,BSMOTE,KMSMOTE,ADASYN,SMOTENC,GBO,SSG;NN"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.99
+                ],
+                "technique": [
+                    "SMOTE,KMSMOTE,GBO,SSG;NN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.99
+                ],
+                "technique": [
+                    "SMOTE,KMSMOTE,GBO,SSG;NN"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.99
+                ],
+                "technique": [
+                    "SMOTE,BSMOTE,KMSMOTE,ADASYN,SMOTENC,GBO,SSG;NN"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "61": {
+            "accuracy": {
+                "value": [
+                    0.96
+                ],
+                "technique": [
+                    "Original,BSMOTE,KMSMOTE,ADASYN,SMOTENC;NN"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.96
+                ],
+                "technique": [
+                    "BSMOTE,KMSMOTE,ADASYN,SMOTENC;NN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.96
+                ],
+                "technique": [
+                    "SMOTE,BSMOTE,KMSMOTE,ADASYN,SMOTENC,GBO;NN"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.96
+                ],
+                "technique": [
+                    "Original,BSMOTE,KMSMOTE,ADASYN,SMOTENC;NN"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "133": {
+            "accuracy": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "SMOTE,SVM-SMOTE,BSMOTE,KMSMOTE,ADASYN,GBO,SSG;NN"
+                ]
+            },
+            "F1": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "SMOTE,SVM-SMOTE,BSMOTE,KMSMOTE,ADASYN,GBO,SSG;NN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "SMOTE,SVM-SMOTE,BSMOTE,KMSMOTE,ADASYN,SMOTENC,GBO,SSG;NN"
+                ]
+            },
+            "recall": {
+                "value": [
+                    1.0
+                ],
+                "technique": [
+                    "SMOTE,SVM-SMOTE,BSMOTE,KMSMOTE,ADASYN,GBO,SSG;NN"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "169": {
+            "accuracy": {
+                "value": [
+                    0.98
+                ],
+                "technique": [
+                    "KMSMOTE,ADASYN;NN"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.99
+                ],
+                "technique": [
+                    "ADASYN;NN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.99
+                ],
+                "technique": [
+                    "ADASYN;NN"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.98
+                ],
+                "technique": [
+                    "KMSMOTE,ADASYN;NN"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "187": {
+            "accuracy": {
+                "value": [
+                    0.97
+                ],
+                "technique": [
+                    "Original;NN"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.97
+                ],
+                "technique": [
+                    "Original;NN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.97
+                ],
+                "technique": [
+                    "Original;NN"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.97
+                ],
+                "technique": [
+                    "Original;NN"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        },
+        "85": {
+            "accuracy": {
+                "value": [
+                    0.96
+                ],
+                "technique": [
+                    "SMOTE;NN"
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.96
+                ],
+                "technique": [
+                    "SMOTE;NN"
+                ]
+            },
+            "precision": {
+                "value": [
+                    0.96
+                ],
+                "technique": [
+                    "SMOTE;NN"
+                ]
+            },
+            "recall": {
+                "value": [
+                    0.96
+                ],
+                "technique": [
+                    "SMOTE;NN"
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null
+                ],
+                "technique": [
+                    null
+                ]
+            }
+        }
+    }
+}

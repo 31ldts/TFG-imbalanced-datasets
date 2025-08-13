@@ -1,0 +1,1385 @@
+{
+    "doi": "10.1016/j.mlwa.2024.100597",
+    "tittle": "Enhancing SMOTE for imbalanced data with abnormal minority instances",
+    "date": "12/2024",
+    "keywords": [
+        "Class imbalance",
+        "Abnormal instances",
+        "Inverse distance",
+        "SMOTE",
+        "Bayesian Gaussian mixture models",
+        "Dirichlet distribution"
+    ],
+    "IF": 0.0,
+    "CI": 0.0,
+    "datasets": {
+        "192": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.4315,
+                    0.5557,
+                    0.5153,
+                    0.6487,
+                    0.6232,
+                    0.6442
+                ],
+                "technique": [
+                    "SMOTE-ENN,Original;Logistic Regression",
+                    "DBSMOTE;Logistic Regression",
+                    "BGMM-SMOTE;kNN",
+                    "SMOTE-ENN,Original;kNN",
+                    "BGMM-SMOTE;RF",
+                    "DSMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "185": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.2286,
+                    0.3036,
+                    0.3319
+                ],
+                "technique": [
+                    "Dirichlet ExtSMOTE;Logistic Regression",
+                    "DSMOTE;kNN",
+                    "Gaussian SMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "190": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.382,
+                    0.4089,
+                    0.4374
+                ],
+                "technique": [
+                    "DBSMOTE;Logistic Regression",
+                    "Dirichlet ExtSMOTE;kNN",
+                    "BSMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "188": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.6169,
+                    0.6033,
+                    0.6173
+                ],
+                "technique": [
+                    "ClusterSMOTE;Logistic Regression",
+                    "SMOTE-ENN,Original;kNN",
+                    "Gaussian SMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "78": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.6489,
+                    0.8,
+                    0.7154
+                ],
+                "technique": [
+                    "DBSMOTE;Logistic Regression",
+                    "Distance ExtSMOTE;kNN",
+                    "Dirichlet ExtSMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "186": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.1978,
+                    0.1732,
+                    0.1624
+                ],
+                "technique": [
+                    "Dirichlet ExtSMOTE;Logistic Regression",
+                    "Dirichlet ExtSMOTE;kNN",
+                    "Dirichlet ExtSMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "116": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.5598,
+                    0.6147,
+                    0.5758
+                ],
+                "technique": [
+                    "SMOTE-ENN,Original;Logistic Regression",
+                    "BSMOTE;kNN",
+                    "ProWSyn;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "7": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.5401,
+                    0.4507,
+                    0.4172
+                ],
+                "technique": [
+                    "DBSMOTE;Logistic Regression",
+                    "BGMM-SMOTE;kNN",
+                    "Dirichlet ExtSMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "77": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.574,
+                    0.6926,
+                    0.8326
+                ],
+                "technique": [
+                    "BSMOTE;Logistic Regression",
+                    "SMOTE-IPF;kNN",
+                    "Dirichlet ExtSMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "155": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.7103,
+                    0.58,
+                    0.8835
+                ],
+                "technique": [
+                    "DBSMOTE;Logistic Regression",
+                    "ADASYN;kNN",
+                    "Dirichlet ExtSMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "184": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.3747,
+                    0.4537,
+                    0.4023
+                ],
+                "technique": [
+                    "BGMM-SMOTE;Logistic Regression",
+                    "SMOTE-ENN,Original;kNN",
+                    "DSMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "150": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.8676,
+                    0.8754,
+                    0.8501
+                ],
+                "technique": [
+                    "Original;Logistic Regression",
+                    "Gaussian SMOTE;kNN",
+                    "Dirichlet ExtSMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "189": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.7582,
+                    0.7589,
+                    0.7867
+                ],
+                "technique": [
+                    "SMOTE-ENN,Original;Logistic Regression",
+                    "ProWSyn;kNN",
+                    "ProWSyn;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "68": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.8657,
+                    0.8753,
+                    0.9037
+                ],
+                "technique": [
+                    "BGMM-SMOTE;Logistic Regression",
+                    "Dirichlet ExtSMOTE;kNN",
+                    "Dirichlet ExtSMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "124": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.6794,
+                    0.8645,
+                    0.8106
+                ],
+                "technique": [
+                    "Dirichlet ExtSMOTE;Logistic Regression",
+                    "ADASYN;kNN",
+                    "Dirichlet ExtSMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "82": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.5196,
+                    0.455,
+                    0.4566
+                ],
+                "technique": [
+                    "Dirichlet ExtSMOTE;Logistic Regression",
+                    "Gaussian SMOTE;kNN",
+                    "Gaussian SMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "18": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9664,
+                    0.9544,
+                    0.9521
+                ],
+                "technique": [
+                    "SMOTE-ENN;Logistic Regression",
+                    "Dirichlet ExtSMOTE;kNN",
+                    "Dirichlet ExtSMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "15": {
+            "accuracy": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "F1": {
+                "value": [
+                    0.9903,
+                    0.9987,
+                    0.994
+                ],
+                "technique": [
+                    "Dirichlet ExtSMOTE;Logistic Regression",
+                    "Dirichlet ExtSMOTE;kNN",
+                    "Dirichlet ExtSMOTE;RF"
+                ]
+            },
+            "precision": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "recall": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "gmean": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            "auc": {
+                "value": [
+                    null,
+                    null,
+                    null
+                ],
+                "technique": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        }
+    }
+}
