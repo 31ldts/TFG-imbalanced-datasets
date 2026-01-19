@@ -1,19 +1,18 @@
 /.venv
 /.vscode
-/Articles
-/conversonJSON.py
-/eliminar.py
-/jsonformatter.txt
-/jsonformatter.xml
-/Proposta TFG class imbalance.docx
-/resultado.txt
-/Reviews
-/rutas.txt
-/salida.csv
-/sheets
-/tablas
-/tablas_filtradas
-/table_parser.py
-/TesiDoctoral JordiPascual.pdf
-/test.csv
-/train.csv
+/_Articles
+/_resultados
+/_Reviews
+/_sheets
+/_tablas
+/_tablas_filtradas
+
+/_conversonJSON.py
+/_eliminar.py
+/_Proposta TFG class imbalance.docx
+/_prueba.py
+/_resultado.txt
+/_rutas.txt
+/_table_parser.py
+/_TesiDoctoral JordiPascual.pdf
+
