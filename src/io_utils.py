@@ -6,7 +6,7 @@ import pandas as pd
 from config.parameters import *
 from src.logger import *
 
-# Passed
+
 def save_csv(nombre_archivo, encabezado, datos):
     with open(os.path.join(PATH_DATA, nombre_archivo), 'w', newline='') as archivo:
         writer = csv.writer(archivo)
@@ -16,7 +16,7 @@ def save_csv(nombre_archivo, encabezado, datos):
             fila = partes + [valor[0]]
             writer.writerow(fila)
 
-# Passed
+
 def save_json(nombre_archivo, contenido, forzar=False):
     path = os.path.join(JSON_PATH, nombre_archivo)
     if not os.path.exists(path):
@@ -48,7 +48,7 @@ def load_json(filename):
         content['article_id'] = os.path.basename(filename)[:-5]
         return content
 
-# Passed
+
 def load_data():
     train_df = pd.read_excel(PATH_TRAIN)
     test_df = pd.read_excel(PATH_TEST)
