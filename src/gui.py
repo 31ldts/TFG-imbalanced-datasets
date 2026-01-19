@@ -3,14 +3,15 @@ from tkinter import messagebox, ttk
 
 from src.io_utils import save_json
 from src.models import Dataset
+from src.logger import *
 
 class App:
     def __init__(self, root):
-        root.title("Article to JSON Converter")
+        root.title("Conversor de Artículos a JSON")
         self.datasets = {}
 
         # Article Frame
-        article_frame = ttk.LabelFrame(root, text="Article Information", padding=10)
+        article_frame = ttk.LabelFrame(root, text="Información del Artículo", padding=10)
         article_frame.grid(row=0, column=0, padx=10, pady=5, sticky="ew")
 
         labels = ["Article ID", "DOI", "Title", "Date", "Keywords", "Impact Factor", "Citation Index"]
@@ -33,7 +34,7 @@ class App:
             entry.grid(row=i, column=1, pady=2, sticky="w")
             self.ds_entries[lbl.lower()] = entry
 
-        self.add_btn = ttk.Button(dataset_frame, text="Add Dataset", command=self.add_dataset)
+        self.add_btn = ttk.Button(dataset_frame, text="Dataset Añadir", command=self.add_dataset)
         self.add_btn.grid(row=len(dataset_labels), column=0, columnspan=2, pady=5)
 
         # Listbox to show added datasets
@@ -42,14 +43,14 @@ class App:
         self.dataset_list.grid(row=1, column=2, rowspan=len(dataset_labels), padx=(10,0), sticky="n")
 
         # Save Button
-        self.save_btn = ttk.Button(root, text="Save Article to JSON", command=self.save_article)
+        self.save_btn = ttk.Button(root, text="Guardar Artículo en JSON", command=self.save_article)
         self.save_btn.grid(row=2, column=0, pady=10)
 
     def add_dataset(self):
         try:
             ds_id = self.ds_entries['dataset id'].get().strip()
             if not ds_id:
-                raise ValueError("Dataset ID required")
+                raise ValueError("Se requiere el ID del dataset.")
             values = {k: v.get().strip() for k, v in self.ds_entries.items() if k != 'dataset id'}
             if int(ds_id) in self.datasets:
                self.datasets[int(ds_id)].add(**values)
@@ -61,6 +62,7 @@ class App:
                 entry.delete(0, tk.END)
         except Exception as e:
             messagebox.showerror("Error", str(e))
+            quick_log(f"{e}", level=ERROR)
 
     def save_article(self):
         try:
@@ -91,27 +93,27 @@ class App:
             
             if saved is True:
                 # Guardado exitoso normalmente
-                messagebox.showinfo("Success", f"Article saved to {article_id}.json")
+                messagebox.showinfo("Éxito", f"Artículo guardado en {article_id}.json")
                 self.reset_all()
             else:
                 # El archivo ya existe, preguntar al usuario
                 overwrite = messagebox.askyesno(
-                    "File Exists",
-                    f"The file {article_id}.json already exists.\n"
-                    "If you continue, it will be overwritten.\n\n"
-                    "Do you want to overwrite it?"
+                    "Archivo existente",
+                    f"El archivo {article_id}.json ya existe.\n"
+                    "Si continúas, se sobrescribirá.\n\n"
+                    "¿Quieres sobrescribirlo?"
                 )
                 if overwrite:
                     # Reintentar guardando con force=True
                     saved_force = save_json(f"{article_id}.json", article, forzar=True)
                     if saved_force:
-                        messagebox.showinfo("Success", f"Article overwritten in {article_id}.json")
+                        messagebox.showinfo("Éxito", f"Artículo sobreescrito en {article_id}.json")
                         self.reset_all()
                     else:
-                        messagebox.showerror("Error", f"Failed to overwrite {article_id}.json")
-                else:
+                        messagebox.showerror("Error", f"No se pudo sobreescribor {article_id}.json")
+                # else:
                     # Usuario decidió no sobrescribir
-                    messagebox.showinfo("Cancelled", "The file was not saved.")
+                    # messagebox.showinfo("Cancelado", "El archivo no fue guardado")
         except Exception as e:
             messagebox.showerror("Error", str(e))
 
